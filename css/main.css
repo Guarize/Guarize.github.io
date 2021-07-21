@@ -1,0 +1,42 @@
+h1 {
+    font-family: monospace;
+    color: #6f2232;
+}
+
+
+
+body { 
+    font-family: helvetica;
+    background-color: #1A1A1D;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: #4E4E50;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.menu a {
+    font-size: 17px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+  }
+
+#foto-perfil {
+    border-radius: 30px;;
+}
+
+h3 {
+    font-size: 22px;
+    color: #950740;
+}
+
+#skill-list {
+    text-align: center;
+}
