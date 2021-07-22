@@ -1,6 +1,7 @@
 h1 {
     font-family: monospace;
     color: #6f2232;
+    font-size: 40px;;
 }
 
 body { 
@@ -8,6 +9,7 @@ body {
     background-color: #1A1A1D;
     color: white;
     text-align: center;
+    font-size: 20px;;
 }
 
 .menu {
@@ -37,4 +39,16 @@ h3 {
 
 #skill-list {
     text-align: center;
+}
+
+.text {
+    float: center;
+    padding: 15px 250px;
+    margin: px;
+}
+
+.skills {
+    float: center;
+    padding: 12px 18px;
+    text-decoration: none;
 }
