@@ -10,13 +10,13 @@ body {
 
 h1 {
     color: #66FCF1;
-    font-size: 40px;
+    font-size: 70px;
     letter-spacing: 4px;
 }
 
 h4 {
-    color: #66FCF1;
-    font-size: 15px;
+    color: #c1e2e0;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 
@@ -36,25 +36,24 @@ h4 {
     text-decoration: none;
 }
 
+.menu a:hover {
+    font-size: 102%;
+}
+
 .header-container {
     width: 100vw;
+    height: 100vh;
     background-color: #1F2833;
 }
 
 .container {
-
+    width: 100vw;
+    height: 100vh;
 }
 
 h3 {
     font-size: 25px;
     color: #45A29E;
-}
-
-#foto-perfil {
-    border-radius: 70px;
-    position: relative;
-    margin: auto;
-    padding: 2rem;
 }
 
 .skills {
@@ -71,6 +70,8 @@ ol.skills li {
     padding: 15px 30px;
     background-color: #4E4E50;
     border-radius: 50px;
+    position: relative;
+    top: 5vh;
 }
 
 .about-me {
@@ -79,6 +80,8 @@ ol.skills li {
     border-radius: 15px;
     display: inline-block;
     margin-bottom: 50px;
+    top: 6vh;
+    position: relative;
 }
 
 #frame {
@@ -86,4 +89,39 @@ ol.skills li {
     border-style: solid;
     border-radius: 50px;
     display: inline-block;
+}
+
+div.header h1 {
+    position: relative;
+    top: 6vh;
+}
+
+div.header h4 {
+    position: relative;
+    top: 2vh;
+}
+
+#foto-perfil {
+    border-radius: 90px;
+    position: relative;
+    padding: 2rem;
+    top: 2vh;
+}
+
+.continue {
+    position: absolute;
+    top: 86vh;
+    left: 46vw;
+    padding: 10px 30px;
+    border: 1px solid aqua;
+    display: inline-block;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.continue:hover {
+    color: #45A29E;
+    font-size: 105%;
 }
