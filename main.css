@@ -51,16 +51,20 @@ h4 {
     height: 100vh;
 }
 
-.hard-skills h3 {
+h3 {
     font-size: 25px;
     color: #45A29E;
 }
 
-.hard-skills ol.skills li {
+.skills {
+    text-align: center;
+}
+
+ol.skills li {
     text-align: left;
 }
 
-.hard-skills {
+.list-block {
     display: inline-block;
     margin: auto;
     padding: 15px 30px;
@@ -68,27 +72,6 @@ h4 {
     border-radius: 50px;
     position: relative;
     top: 5vh;
-    left: 1vw;
-}
-
-.soft-skills {
-    display: inline-block;
-    margin: auto;
-    padding: 15px 30px;
-    background-color: #4E4E50;
-    border-radius: 50px;
-    position: relative;
-    top: -5vh;
-    left: 2rem;
-}
-
-.soft-skills h3 {
-    font-size: 25px;
-    color: #45A29E;
-}
-
-.soft-skills ol.skills li {
-    text-align: left;
 }
 
 .about-me {
@@ -103,7 +86,7 @@ h4 {
 
 #frame {
     padding: 15px 30px;
-    border: 2px solid #45A29E;
+    border-style: solid;
     border-radius: 50px;
     display: inline-block;
 }
