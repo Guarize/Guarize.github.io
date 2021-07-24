@@ -1,144 +1,130 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "Titillium Web", sans-serif;
-    background-color: #1A1A1D;
+    font-size: 22px;
+    background-color: #1a1a1d;
     color: white;
-    text-align: center;
-    font-size: 20px;
-}
-
-h1 {
-    color: #66FCF1;
-    font-size: 70px;
-    letter-spacing: 4px;
-}
-
-h4 {
-    color: #c1e2e0;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-.menu {
-    list-style-type: none;
-    background-color: #4e4e50;
-    padding: 10px;
-    overflow: hidden;
-}
-
-.menu a {
-    font-size: 20px;
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 15px 25px;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    font-size: 102%;
+    scroll-behavior: smooth;
 }
 
 .header-container {
-    width: 100vw;
     height: 100vh;
-    background-color: #1F2833;
-}
-
-.container {
     width: 100vw;
-    height: 100vh;
+    margin-bottom: 150px;
 }
 
-.hard-skills h3 {
-    font-size: 25px;
-    color: #45A29E;
+* {
+    box-sizing: border-box;
 }
 
-.hard-skills ol.skills li {
-    text-align: left;
+ul {
+    list-style: none;
 }
 
-.hard-skills {
-    display: inline-block;
-    margin: auto;
-    padding: 15px 30px;
-    background-color: #4E4E50;
-    border-radius: 50px;
-    position: relative;
-    top: 5vh;
-    left: 1vw;
-}
-
-.soft-skills {
-    display: inline-block;
-    margin: auto;
-    padding: 15px 30px;
-    background-color: #4E4E50;
-    border-radius: 50px;
-    position: relative;
-    top: -5vh;
-    left: 2rem;
-}
-
-.soft-skills h3 {
-    font-size: 25px;
-    color: #45A29E;
-}
-
-.soft-skills ol.skills li {
-    text-align: left;
-}
-
-.about-me {
-    padding: 15px 30px;
-    border-style: solid;
-    border-radius: 15px;
-    display: inline-block;
-    margin-bottom: 50px;
-    top: 6vh;
-    position: relative;
-}
-
-#frame {
-    padding: 15px 30px;
-    border: 2px solid #45A29E;
-    border-radius: 50px;
-    display: inline-block;
-}
-
-div.header h1 {
-    position: relative;
-    top: 6vh;
-}
-
-div.header h4 {
-    position: relative;
-    top: 2vh;
-}
-
-#foto-perfil {
-    border-radius: 90px;
-    position: relative;
-    padding: 2rem;
-    top: 2vh;
-}
-
-.continue {
-    position: absolute;
-    top: 86vh;
-    left: 46vw;
-    padding: 10px 30px;
-    border: 1px solid aqua;
-    display: inline-block;
-    border-radius: 50px;
-    text-transform: uppercase;
+a {
     text-decoration: none;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: #4e4e50;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    height: 35px;
+    list-style: 45px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    color: white;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+nav ul li a:hover {
+    color: #C5C6C7;
+    transition: all ease 0.2;
+}
+
+.perfil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.perfil {
+    width: 500px;
+    height: 500px;
+}
+
+.header-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text {
+    width: 400px;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    color: #6f2232;
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+
+.header-text p {
     color: white;
 }
 
-.continue:hover {
-    color: #45A29E;
-    font-size: 105%;
+.about-me {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
+.frame {
+    padding: 15px 30px;
+    border: 2px solid #950740;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.about-me h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.about-me p {
+    text-align: center;
 }

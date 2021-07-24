@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Guarize - Portfólio</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <header class="header-container">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guarize - Portfólio</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header-container">
+    <section id="header-menu">
       <nav>
-        <div class="menu">
-          <a href="">Home</a>
-          <a href="https://www.linkedin.com/in/pedroguarize/" target="_blank"
-            >Linkedin</a
-          >
-          <a href="https://github.com/guarize" target="_blank">Github</a>
-        </div>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/pedroguarize/" target="_blank">Linkedin</a>
+          </li>
+          <li>
+            <a href="https://github.com/guarize" target="_blank">Github</a>
+          </li>
+        </ul>
       </nav>
-      <div class="header">
-        <h1>Pedro Guarize</h1>
-        <h4>
-          <em>Estudante de Desenvolvimento Web na Trybe <br /></em>
-        </h4>
-        <img
-          id="foto-perfil"
-          src="https://media-exp3.licdn.com/dms/image/C4D03AQHBiHlEH_Ob8Q/profile-displayphoto-shrink_800_800/0/1625079162175?e=1632355200&v=beta&t=AW3P6GtfcI_oywU3ysgfYBklhjl-_ljZnRDecwgJEj0"
-          width="300"
-          alt="Foto de Pedro Guarize Montenegro"
-        />
-        <a class="continue" href="#button-target">Continue</a>
+      <div class="header-content">
+        <div class="perfil">
+          <img
+            src="/Guarize-Blob.png"
+            alt="Foto de Pedro Guarize Montenegro" />
+        </div>
+        <div class="header-text">
+          <h1>Pedro Guarize</h1>
+          <p>
+            <em>Estudante de Desenvolvimento Web na Trybe<br /></em>
+          </p>
+        </div>
       </div>
-    </header>
-
-    <br />
-    <!-- <ul>
-
-        <li><a href="#foto-perfil">Foto</a></li>
-        <li><a href="#sobre-mim">Sobre Mim</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#blogs">Sugestão de Blogs</a></li>
-
-    </ul> -->
-    <!-- <br> -->
-    <main class="container" id="button-target">
-      <div class="about-me">
-        <h3 id="frame">Sobre Mim</h3>
+    </section>
+  </header>
+  <main class="container">
+    <div class="about-me frame">
+      <div>
+        <h3 id=>Sobre Mim</h3>
+      </div>
+      <div>
         <p>
           Meu nome é Pedro, 22 anos, moro em Recife-PE. Sou apaixonado por
           Tecnologia,<br />
@@ -58,38 +54,28 @@
           capazes que verdadeiramente impactar a vida das pessoas.
         </p>
       </div>
-      <br />
+    </div>
+    <div class="hard-skills">
+      <h3>Hard Skills</h3>
+      <ol class="skills">
+        <li><strong>HTML</strong></li>
+        <li><strong>CSS</strong></li>
+        <li><strong>JavaScript</strong></li>
+        <li>Solidity</li>
+        <li>Unix & Bash</li>
+        <li>Git & Github</li>
+      </ol>
+    </div>
 
-      <div class="hard-skills">
-        <h3>Hard Skills</h3>
-        <ol class="skills">
-          <li><strong>HTML</strong></li>
-          <li><strong>CSS</strong></li>
-          <li><strong>JavaScript</strong></li>
-          <li>Solidity</li>
-          <li>Unix & Bash</li>
-          <li>Git & Github</li>
-        </ol>
-      </div>
+    <div class="soft-skills">
+      <h3>Soft-Skills</h3>
+      <ol class="skills">
+        <li>Planejamento estratégico</li>
+        <li><strong>Capacidade analítica</strong></li>
+      </ol>
+    </div>
+  </main>
+  <footer></footer>
+</body>
 
-      <div class="soft-skills">
-        <h3>Soft-Skills</h3>
-        <ol class="skills">
-          <li>Planejamento estratégico</li>
-          <li><strong>Capacidade analítica</strong></li>
-        </ol>
-      </div>
-
-      <br />
-      <!-- <h4 id="blogs">Sugestão de Blogs</h4>
-    <ol>
-        <li><a href="https://blog.betrybe.com/?utm_medium=email&_hsmi=138358675&_hsenc=p2ANqtz-9dnHQ2HGGsTqzKGQNnXFHFaOBLJ_U83ozyW8vAM5JtAxw1A4XEPh5VXl-j1Ut4K0oaGIuLDvC5bYMsaD9ccyEet4hYCQ&utm_content=138358675&utm_source=hs_automation" target="_blank">Blog da Trybe</a></li>
-        <li><a href="https://blog.geekhunter.com.br/?utm_medium=email&_hsmi=138358675&_hsenc=p2ANqtz-8SsAFkp7uBR2-vUgg4tKCuLcOGcQwa_fXfVYweBfOaLBaHvzMsRO5nfCWXoWORutfaSYexdRpdwBRkoaLZJtBscpk-pg&utm_content=138358675&utm_source=hs_automation" target="_blank">Blog Geek Hunter</a></li>
-        <li><a href="https://blog.revelo.com.br/?utm_medium=email&_hsmi=138358675&_hsenc=p2ANqtz-8PDMpOuCgkYSVGnQLjH1QD84My5IWWIQ1PELTy2H9P6Z5U8wmFTh4mraTvjpD3nsvhM8TBiUyjMF_t83STv6AisvteWQ&utm_content=138358675&utm_source=hs_automation" target="_blank">Blog Relevo</a></li>
-
-
-    </ol> -->
-    </main>
-    <footer></footer>
-  </body>
 </html>
