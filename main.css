@@ -96,7 +96,7 @@ nav ul li a:hover {
 
 .header-text h1 {
     font-size: 60px;
-    color: #6f2232;
+    color: #950740;
     margin-bottom: 10px;
     line-height: 60px;
 }
@@ -109,8 +109,8 @@ nav ul li a:hover {
     position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid #FFFF00;
     padding: 10px;
+    margin-bottom: 200px;
 }
 
 .frame {
@@ -128,3 +128,48 @@ nav ul li a:hover {
 .about-me p {
     text-align: center;
 }
+
+.skills-container {
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    margin-top: 500px;
+}
+
+.hard-skills h3 {
+    text-align: center;
+    display: absolute;
+    padding: 10px 30px;
+}
+
+.soft-skills h3{
+    text-align: center;
+    display: absolute;
+    padding: 10px 30px;
+}
+
+.hard-skills ol {
+    text-align: center;
+    display: absolute;
+    padding: 10px 30px;
+}
+
+.soft-skills ol{
+    text-align: center;
+    display: absolute;
+    padding: 10px 30px;
+}
+
+/* .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: #4e4e50;
+} */
