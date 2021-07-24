@@ -109,8 +109,7 @@ nav ul li a:hover {
     position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
-    margin-bottom: 200px;
+    padding: 10px 30px;
 }
 
 .frame {
@@ -131,37 +130,32 @@ nav ul li a:hover {
 }
 
 .skills-container {
-    width: 600px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
-    margin-top: 500px;
+    padding: 10px 30px;
+    margin: 500px auto;
 }
 
 .hard-skills h3 {
     text-align: center;
-    display: absolute;
     padding: 10px 30px;
     color: #950740;
 }
 
 .soft-skills h3{
     text-align: center;
-    display: absolute;
     padding: 10px 30px;
     color: #950740;
 }
 
 .hard-skills ol {
     text-align: center;
-    display: absolute;
     padding: 10px 30px;
 }
 
 .soft-skills ol{
     text-align: center;
-    display: absolute;
     padding: 10px 30px;
 }
 
