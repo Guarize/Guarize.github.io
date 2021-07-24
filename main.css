@@ -123,6 +123,7 @@ nav ul li a:hover {
 .about-me h3 {
     text-align: center;
     font-size: 25px;
+    color: #950740;
 }
 
 .about-me p {
@@ -142,12 +143,14 @@ nav ul li a:hover {
     text-align: center;
     display: absolute;
     padding: 10px 30px;
+    color: #950740;
 }
 
 .soft-skills h3{
     text-align: center;
     display: absolute;
     padding: 10px 30px;
+    color: #950740;
 }
 
 .hard-skills ol {
