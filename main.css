@@ -66,7 +66,7 @@ nav ul li a:hover {
     color: #C5C6C7;
 }
 
-.perfil img{
+.perfil img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -86,6 +86,7 @@ nav ul li a:hover {
     position: absolute;
     left: 50%;
     top: 50%;
+    /* Vi na w3schools.com como uma solução para centralizar os elementos, não entendo perfeitamente como funciona.*/
     transform: translate(-50%, -50%);
 }
 
@@ -134,28 +135,39 @@ nav ul li a:hover {
     transform: translate(-50%, -50%);
     padding: 10px 30px;
     margin: 500px auto;
+    width: 500px;
+}
+
+.hard-skills {
+    display: flex;
+}
+
+.soft-skills {
+    display: flex;
 }
 
 .hard-skills h3 {
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 15px;
     color: #950740;
+    margin-right: 50px;
 }
 
-.soft-skills h3{
+.soft-skills h3 {
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 15px;
     color: #950740;
+    margin-right: 50px;
 }
 
 .hard-skills ol {
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 15px;
 }
 
-.soft-skills ol{
+.soft-skills ol {
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 15px;
 }
 
 /* .footer-container {
@@ -169,3 +181,9 @@ nav ul li a:hover {
     z-index: 1;
     background-color: #4e4e50;
 } */
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 50px;
+}
