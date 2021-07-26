@@ -163,3 +163,11 @@ nav ul li a:hover {
 .soft-skills {
     margin-right: 200px;
 }
+
+.skills {
+    list-style-type: none;
+}
+
+.footer-container {
+    text-align: center;
+}
