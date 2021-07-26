@@ -130,20 +130,12 @@ nav ul li a:hover {
 }
 
 .skills-container {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px 30px;
-    margin: 500px auto;
-    width: 500px;
-}
-
-.hard-skills {
     display: flex;
-}
-
-.soft-skills {
-    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-top: 1px solid #950740;
+    border-bottom: 1px solid #950740;
 }
 
 .hard-skills h3 {
@@ -157,33 +149,17 @@ nav ul li a:hover {
     text-align: center;
     padding: 10px 15px;
     color: #950740;
-    margin-right: 50px;
 }
-
-.hard-skills ol {
-    text-align: center;
-    padding: 10px 15px;
-}
-
-.soft-skills ol {
-    text-align: center;
-    padding: 10px 15px;
-}
-
-/* .footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-    z-index: 1;
-    background-color: #4e4e50;
-} */
 
 .container {
     height: 100vh;
     width: 100vw;
-    margin-bottom: 50px;
+}
+
+.hard-skills {
+    margin-left: 200px;
+}
+
+.soft-skills {
+    margin-right: 200px;
 }
