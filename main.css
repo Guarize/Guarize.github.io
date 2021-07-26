@@ -64,7 +64,6 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #C5C6C7;
-    transition: all ease 0.2;
 }
 
 .perfil img{
