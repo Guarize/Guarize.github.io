@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') ;
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+}
+
+#header-container {
+  text-align: center;
+  color: white;
+  background: #f45d48;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  height: 110px;
+  margin: -24px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#header-container h3 {
+  font-size: 25px;
+}
+
+#score-container {
+  background: #232323;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+#score {
+  padding: 5px;
+}
+
+#colors-container {
+  background: #f8f5f2;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.ball {
+  display: inline-block;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.ball:hover {
+  cursor: pointer;
+}
+
+#button-container {
+  margin: auto;
+  text-align: center;
+}
+
+#reset-game {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin: 25px;
+  border: none;
+  background-color: #078080;
+  color: white;
+  padding: 7px 12px;
+  letter-spacing: 1px;
+  box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+}
+
+#reset-game:hover {
+  cursor: pointer;
+  font-size: 19px;
+}
+
+#answer {
+  margin-top: -15px;
+}
