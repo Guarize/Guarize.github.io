@@ -45,7 +45,7 @@ function reset() {
 
   const newIndex = Math.floor(Math.random() * 6);
   rgbTarget.innerText = colorsBalls[newIndex].style.backgroundColor;
-  answer.innerHTML = 'Escolha uma cor';
+  answer.innerHTML = 'Pick a Color';
 }
 
 resetGameBtn.addEventListener('click', reset);
@@ -57,10 +57,10 @@ function game(event) {
     clickedColor.style.backgroundColor === rgbTarget.innerText.toLowerCase()
   ) {
     score.innerHTML = Number(score.innerHTML) + 3;
-    answer.innerText = 'Acertou!';
+    answer.innerText = 'Correct!';
     setTimeout(reset, 1500);
   } else {
-    answer.innerText = 'Errou! Tente novamente!';
+    answer.innerText = 'Wrong! Try Again!';
     setTimeout(reset, 1500);
   }
 }
