@@ -4,6 +4,7 @@ const colorsContainer = document.getElementById('colors-container');
 const answer = document.getElementById('answer');
 const resetGameBtn = document.getElementById('reset-game');
 const score = document.getElementById('score');
+const header = document.getElementById('header-container');
 
 // Generates random RGB color
 function generateRandomRGB() {
@@ -46,6 +47,7 @@ function reset() {
   const newIndex = Math.floor(Math.random() * 6);
   rgbTarget.innerText = colorsBalls[newIndex].style.backgroundColor;
   answer.innerHTML = 'Pick a Color';
+  header.removeAttribute('style');
 }
 
 resetGameBtn.addEventListener('click', reset);
@@ -58,6 +60,7 @@ function game(event) {
   ) {
     score.innerHTML = Number(score.innerHTML) + 3;
     answer.innerText = 'Correct!';
+    header.style.backgroundColor = clickedColor.style.backgroundColor
     setTimeout(reset, 1500);
   } else {
     answer.innerText = 'Wrong! Try Again!';
