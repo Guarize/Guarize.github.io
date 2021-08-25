@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: #272727;
+  color: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#title {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #6C63FF;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#date-container {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#date {
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#day-container,
+#hour-container,
+#minute-container,
+#second-container {
+  flex: 1;
+  padding: 0 10px;
+  margin: 0 50px;
+}
+
+p {
+  font-size: 3em;
+}
+
+#img {
+  flex: 1 1 500px;
+}
+
+small {
+  font-size: 0.8em;
+}
+
+.bitcoin-img {
+  height: 50vh;
+}
+
+@media (max-width: 720px) {
+  .countdown {
+    flex-flow: row wrap;
+    max-width: 500px;
+    justify-content: center;
+  }
+  .bitcoin-img {
+    padding: 30px;
+  }
+}
